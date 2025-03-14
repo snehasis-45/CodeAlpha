@@ -1,0 +1,24 @@
+/// Flashcard
+.flash-card-container {
+	.btn-container {
+		&.flipped button {
+			&:first-of-type {
+				margin-right: 5px;
+			}
+			&:last-of-type {
+				margin-left: 5px;
+			}
+		}
+	}
+	.MuiPaper-root {
+		min-width: 400px;
+	}
+	.MuiCardContent-root,
+	.MuiCardContent-root:last-child {
+		padding: 60px 0;
+		min-width: 50vw;
+	}
+}
+.flash-card-button {
+	margin-bottom: 30px;
+}
